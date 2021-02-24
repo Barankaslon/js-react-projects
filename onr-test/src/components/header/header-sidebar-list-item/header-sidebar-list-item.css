@@ -1,0 +1,13 @@
+.navbar__list-item {
+    padding: 20px 15px;
+    border-top: 1px solid #2d42ff;
+}
+
+.navbar__list-item:last-child {
+    border-bottom: 1px solid #2d42ff;
+}
+
+.navbar__list-item:hover {
+    background-color: #000c7a;
+    cursor: pointer;
+}

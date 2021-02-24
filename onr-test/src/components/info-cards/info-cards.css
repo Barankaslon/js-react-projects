@@ -1,0 +1,10 @@
+.filter__cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected{
+    background: rgba(178, 214, 255, .6);
+}

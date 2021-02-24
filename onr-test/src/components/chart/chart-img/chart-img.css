@@ -1,0 +1,11 @@
+.chart {
+    width: 80%;
+    height: 300px;
+    border: 1px solid rgba(105, 105, 105, .4);
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+svg {
+    overflow: visible;
+}

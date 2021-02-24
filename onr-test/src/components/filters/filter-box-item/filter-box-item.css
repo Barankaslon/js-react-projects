@@ -1,0 +1,25 @@
+.filter {
+    width: 60%;
+    border: 1px solid #696969;
+    border-radius: 5px;
+}
+
+.filter p{
+    color: #696969;
+    padding: 10px;
+}
+
+.filter i{
+    color: #696969;
+    padding: 5px 10px;
+}
+
+.filter__info-paragraph .blue {
+    color: #006eff;
+    padding: 5px 10px;
+}
+
+.filter__info-paragraph .light {
+    color: #dadada;
+    padding: 5px 10px;
+}

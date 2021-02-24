@@ -1,0 +1,11 @@
+.period__list-item {
+    padding: 10px;
+    margin: 0 5px;
+    background: #0070da;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.period__link {
+    padding: 0 10px;
+}

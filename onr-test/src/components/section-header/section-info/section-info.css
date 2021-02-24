@@ -1,0 +1,16 @@
+.section__info {
+    padding: 0 15%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__info i {
+    color: #696969;
+}
+
+.section__header-info span i{
+    color: #696969;
+    margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+.header__title {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title-text {
+    padding: 0 150px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fff;
+}
+
+.login__link {
+    padding: 0 20px;
+}

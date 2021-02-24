@@ -1,0 +1,10 @@
+.section {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.section h3, h2{
+    color: #696969;
+    padding: 10px;
+    font-weight: 300;
+}
