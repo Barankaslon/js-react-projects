@@ -3,27 +3,19 @@ import React from 'react';
 import './chart-nav-list-item.css';
 
 const ChartNavListItem = () => {
+
+    const period = ['Day', 'Week', 'Month', 'Quarter', 'Half', 'Year'];
     return (
-        <>
-            <li className="period__list-item">
-            <a href="#" className="period__link">Day</a>
-            </li>
-            <li className="period__list-item">
-                <a href="#" className="period__link">Week</a>
-            </li>
-            <li className="period__list-item">
-                <a href="#" className="period__link">Month</a>
-            </li>
-            <li className="period__list-item">
-                <a href="#" className="period__link">Quarter</a>
-            </li>
-            <li className="period__list-item">
-                <a href="#" className="period__link">Half</a>
-            </li>
-            <li className="period__list-item">
-                <a href="#" className="period__link">Year</a>
-            </li>
-        </>
+
+        period.map(item => {
+            return (
+                <>
+                    <li className="period__list-item">
+                        <a href="#" className="period__link">{item}</a>
+                    </li>
+                </>
+            )
+        })    
     )
 }
 
