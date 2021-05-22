@@ -9,7 +9,9 @@ function Header() {
     return (
         <Container>
             <HeaderLogo>
-                <img src={"http://pngimg.com/uploads/amazon/amazon_PNG25.png"}/>
+                <Link to='/'>
+                    <img src={"http://pngimg.com/uploads/amazon/amazon_PNG25.png"}/>
+                </Link>
             </HeaderLogo>
             <HeaderOptionAddress>
                 <LocationOnIcon />  
